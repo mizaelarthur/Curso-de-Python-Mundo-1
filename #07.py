@@ -61,6 +61,14 @@ print('='*100)
 # Desafio 010 - Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dolares ela pode comprar 
 # (Considere US$1,00 = R$3,27)
 
+n=float(input('Digite quando você tem em dinheiro: '))
+
+dolar=3.27
+
+conv=n/dolar
+
+print('O valor que você possui corresponde {} Dolares'.format(conv))
+
 # Desafio 011 - Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de 
 # tinta necessaria para pinta-la, sabendo que a cada litro de tinta, pinta uma área de 2m².
 
