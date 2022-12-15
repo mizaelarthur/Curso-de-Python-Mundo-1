@@ -68,14 +68,37 @@ dolar=3.27
 conv=n/dolar
 
 print('O valor que você possui corresponde {:.2f} Dolares'.format(conv))
+print('='*100)
 
 # Desafio 011 - Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de 
 # tinta necessaria para pinta-la, sabendo que a cada litro de tinta, pinta uma área de 2m².
 
+n1=float(input('Informe qual a altura da parede: '))
+n2=float(input('Informe quanto de largura tem a parede: '))
 
+m=n1*n2
+
+tinta=m/2
+
+print('='*100)
+print('A quantidade de litros de tinta necessario é de {} litro(s)'.format(tinta))
+print('='*100)
 
 # Desafio 012 - Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto
 
-# Desafio 013 - Faça um algoritmo que leia o salário de m funcionario e mostre seu novo salario, com 15% de aumento
+valor=float(input('Informe o  preço do produto: '))
 
+nvalor=valor-(valor*0.05)
 
+print('='*100)
+print('O novo preço do produto será {:.2f}'.format(nvalor))
+print('='*100)
+
+# Desafio 013 - Faça um algoritmo que leia o salário de um funcionario e mostre seu novo salario, com 15% de aumento
+
+salario=float(input('Digite o salario: '))
+nsalario=salario+(salario*0.15)
+
+print('='*100)
+print('O novo salario do funcionario será R${:.2f}'.format(nsalario))
+print('='*100)
