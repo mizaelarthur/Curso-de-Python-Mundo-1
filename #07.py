@@ -61,13 +61,13 @@ print('='*100)
 # Desafio 010 - Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dolares ela pode comprar 
 # (Considere US$1,00 = R$3,27)
 
-x=float(input('Digite o quanto você tem em dinheiro: '))
+n=float(input('Digite quando você tem em dinheiro: '))
 
-conv=x / 3.27
+dolar=3.27
 
-print('='*100)
-print('Seu valor corresponde a US${:.2f} '.format(conv))
-print('='*100)
+conv=n/dolar
+
+print('O valor que você possui corresponde {} Dolares'.format(conv))
 
 # Desafio 011 - Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de 
 # tinta necessaria para pinta-la, sabendo que a cada litro de tinta, pinta uma área de 2m².
