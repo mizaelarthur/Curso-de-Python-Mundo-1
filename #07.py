@@ -67,7 +67,7 @@ dolar=3.27
 
 conv=n/dolar
 
-print('O valor que você possui corresponde {} Dolares'.format(conv))
+print('O valor que você possui corresponde {:.2f} Dolares'.format(conv))
 
 # Desafio 011 - Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de 
 # tinta necessaria para pinta-la, sabendo que a cada litro de tinta, pinta uma área de 2m².
