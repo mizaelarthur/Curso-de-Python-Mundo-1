@@ -2,5 +2,5 @@
 # Centímetros e Milímetros
 
 n=float(input('Digite a distancia em metros: '))
-print('A distancia em centímetros e milímetros é, especitivamente: \n {:.2f} e {:.2f}'.format(n*100,n*1000))
+print('A distancia em centímetros e milímetros é, especitivamente: \n {:.1f} e {:.1f}'.format(n*100,n*1000))
 
