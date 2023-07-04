@@ -10,3 +10,5 @@ capitalizado=x.istitle()
 
 print('O tipo primitivo desse valor é {}\n Só tem espaços? {}\n É um número? {}\n É alfabético? {}\n É alfanumérico? {}\n Está em Maiúsculas? {}\n Está em Minusculas? {}\n Está capitalizada? {}'
 .format(tipo,espaço,numero,alfabetico,alfanumerico,maiuscula,minuscula,capitalizado))
+
+#a
